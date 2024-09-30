@@ -5,6 +5,7 @@ int entry(int argc, char **argv) {
 	// To see all the settable window properties, ctrl+f "struct Os_Window" in os_interface.c
 	window.title = STR("Minimal Game Example");
 	
+	
 	while (!window.should_close) {
 		reset_temporary_storage();
 		
@@ -23,3 +24,14 @@ int entry(int argc, char **argv) {
 
 	return 0;
 }
+
+/*
+Sry if this is a dumb question haha but I'm completely new to C and rly have no idea what I'm doing...
+So I got everything working with my entry function drawing a rect from the minimal game loop
+but when I try to load my player IMG it wont show on screen. My player img is just a rly small file I made on aseprite,
+basically just copied exactly what randy did. the IMG is a PNG file thats 10x20 pixels and is sitting in my games root directory.
+I don't get any errors when I build or run the game and I can close the game with the escape key
+I just cant get the IMG to show up on screen.
+*/
+
+

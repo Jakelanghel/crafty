@@ -10,7 +10,7 @@
                 "build.c"
             ],
             "intelliSenseMode": "clang-x64",
-            "compilerPath": "C:/Program Files/LLVM/bin/clang",
+            "compilerPath": "C:/Users/turd-ferguson/Desktop/dev/LLVMs/LLVM/bin/clang",
             "cStandard": "c11"
         }
     ],
