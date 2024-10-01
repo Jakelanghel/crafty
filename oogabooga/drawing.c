@@ -344,7 +344,6 @@ Draw_Quad *draw_rect_xform_in_frame(Matrix4 xform, Vector2 size, Vector4 color, 
 	q.color = color;
 	q.image = 0;
 	q.type = QUAD_TYPE_REGULAR;
-	
 	return draw_quad_xform_in_frame(q, xform, frame);
 }
 Draw_Quad *draw_circle_in_frame(Vector2 position, Vector2 size, Vector4 color, Draw_Frame *frame) {
