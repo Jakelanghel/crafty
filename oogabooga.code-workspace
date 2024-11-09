@@ -7,7 +7,10 @@
 	"settings": {
 		"files.associations": {
 			"algorithm": "c",
-			"*.rh": "c"
+			"*.rh": "c",
+			"xutility": "c",
+			"type_traits": "c",
+			"xtr1common": "c"
 		}
 	}
 }
